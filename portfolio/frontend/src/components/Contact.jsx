@@ -54,10 +54,10 @@ export default function Contact() {
         </button>
       </form>
 
-      <footer className="bg-black text-white mt-20 py-10 text-center">
+      <footer className="bg-black text-white mt-20 py-3 text-center">
         <button
           onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-          className="block mx-auto text-[10px] sm:text-xs tracking-widest mb-8 cursor-pointer hover:opacity-70"
+          className="block mx-auto text-[10px] sm:text-xs tracking-widest cursor-pointer hover:opacity-70"
         >
           ^<br />BACK TO TOP
         </button>
